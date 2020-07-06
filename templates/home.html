@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css') }}">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <title>ML Demo Examples</title>
+</head>
+
+<body>
+
+    <!-- Team -->
+    <section id="team" class="pb-5">
+        <div class="container">
+            <h5 class="section-title h1">My Demo Projects</h5>
+            <div class="row">
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" >
+                        <div class="mainflip flip-0">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="https://bradshawtyler.com/pricepredictor/media/car.png" alt="card image" style="width: fit-content;
+                                            height: inherit;"></p>
+                                        <h4 class="card-title">Car Price Prediction</h4>
+                                        <p class="card-text">This data can be used for a lot of purposes such as price prediction to exemplify the use of linear regression in Machine Learning.</p>
+                                        <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-hand-o-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">Try it Out</h4>
+                                        <p class="card-text">This dataset contains information about used cars listed on www.cardekho.com</p>
+                                        <p class="card-text">Git Hub Link: <a href="https://github.com/Rizwan54/carpriceprediction" target="_blank">Click here</a></p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="{{ url_for('car_index')}}">
+                                                    <i class="fa fa-arrow-circle-right"></i> Check it out
+                                                </a>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./Team member -->
+                
+                
+                
+
+            </div>
+        </div>
+    </section>
+    <!-- Team -->
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
